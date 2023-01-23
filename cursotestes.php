@@ -11,6 +11,8 @@
     
 <?php
     echo "hello world!"; 
+    $nome = $_GET["a"];
+    echo "</br> meu nickname é : $nome" ;
 ?>    
 
 </body>
