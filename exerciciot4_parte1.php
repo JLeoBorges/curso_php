@@ -10,7 +10,7 @@
             <?php
             $c = 1;
             while ($c <= 5){
-            echo "Valor $c : <input type='number' name='v1' min='0' max='100' value='0'/><br/>";
+            echo "Valor $c : <input type='number' name='v$c' min='0' max='100' value='0'/><br/>";
             $c++;
         
         }
