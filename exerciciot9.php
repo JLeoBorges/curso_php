@@ -23,6 +23,39 @@
         $res = wordwrap($txt, 50, "<br>\n",false);
         echo "$res";
         
+        $tamanho = strlen($txt);
+        echo "</br></br></br>Quantidade de caracteres acima: $tamanho";
+
+        $cont = str_word_count($txt);
+        echo "</br></br></br>Quantidade de palavras: $cont";
+
+        echo "</br></br></br></br></br>";
+        $vetor = explode(" ",$txt);
+        print_r($vetor);
+
+
+        echo "</br></br></br></br></br>";
+        $meunick = "Xeke";
+        $vet = str_split($meunick);
+        print_r($vet);
+
+        echo "</br></br></br></br></br>";
+        $vetor3[0]= "mucho";
+        $vetor3[1]= "texto";
+        $texto= join(" ",$vetor3);
+        print($texto);
+
+
+        echo "</br></br></br></br></br>";
+        $letra = "L";
+        $cod = ord($letra);
+        print("o código de $letra é $cod");
+
+
+
+
+
+
 ?>  
      
 </body>
