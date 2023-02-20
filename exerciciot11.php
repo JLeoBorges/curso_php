@@ -5,6 +5,7 @@
     <title>Aula Matrizes</title>
 </head>
 <body>
+    <pre>
     <?php
 
     $n = array( array(2,3),
@@ -17,5 +18,6 @@
 
     ?>
     
+</pre>
 </body>
 </html>
